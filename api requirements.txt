@@ -1,0 +1,23 @@
+1. array of products containing id and quantity of product
+2. userId
+3. totalAmount
+___________________________________________________________
+// user side
+- add to cart functionality - done
+- checkout - done
+- order placement (user info, shipping info, payment) - done
+
+
+// KAYUU Furniture Store
+- update product api - remaining
+- Recieve order details and save in db - done
+- fetch orders in dashboard from db - done
+- change order status [pending, accepted, cancelled] from admin dashboard - done
+- show each user his/her orders if any - remaining
+- payment method integration - remaining
+- reviews api - done
+
+// deployment
+- server
+- user side
+- admin side

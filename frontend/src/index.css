@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bodyBg {
+  background: rgb(251, 251, 251);
+}
+
+.home-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets//hero-image.avif");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.living-room {
+  background-image: url("https://images.unsplash.com/photo-1587817597261-66e1b464c00d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+.bedroom {
+  background-image: url("./assets/bedroom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.kitchen {
+  background-image: url("./assets/kitchen.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bathroom {
+  background-image: url("./assets/bathroom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-section-1 {
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1587817597261-66e1b464c00d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* loader */
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, rgb(234 179 8) 94%, #0000) top/9px
+      9px no-repeat,
+    conic-gradient(#0000 30%, rgb(234 179 8));
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+}
+
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
