@@ -48,6 +48,8 @@ app.use("/api", require("./routes/orders"));
 app.use("/api", require("./routes/reviews"));
 app.use("/api", require("./routes/settings.routes"));
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 // add product api
 app.post("/api/addProduct", upload.single("image"), async (req, res) => {
   const {
